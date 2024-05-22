@@ -1,7 +1,13 @@
 
-/*--------------------------------------------------------------
+/*---------------------------------
 # General
---------------------------------------------------------------*/
+------------------------------------*/
+
+@font-face {
+  font-family: ABC;
+  src: url(../font/Almarai/Almarai-Bold.ttf);
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #212529;
@@ -17,7 +23,9 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6, .font-primary {
-  font-family: "Raleway", sans-serif;
+  font-family: "Almarai", sans-serif;
+  font-weight: 300;
+  font-style: normal
 }
 
 /*--------------------------------------------------------------
@@ -90,6 +98,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   padding: 0;
   margin: 0;
   max-height: 40px;
+  margin-right: 20%;
 }
 
 #main {
@@ -110,6 +119,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   position: relative;
   white-space: nowrap;
   float: left;
+  font-family: "Almarai", sans-serif;
 }
 
 .nav-menu a {
@@ -119,7 +129,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 15px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Almarai", sans-serif;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -352,27 +362,33 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #hero h2 {
-  color: #a08f86;
+  color: #1e1b1a;
   margin-bottom: 50px;
   font-size: 24px;
 }
 
 #hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
+  text-align: center;
+  width: 191px;
+  font-weight: bold;
+  font-family: "Almarai", sans-serif;
+  
+  border: solid #eb5d1e 2px;
+  font-weight: bold;
+  font-size: 18px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 8px 28px;
-  border-radius: 3px;
+  /* border-radius: 3px; */
   transition: 0.5s;
   margin: 10px;
-  color: #fff;
-  background: #eb5d1e;
+  color: #ef7f4d;
+  /* background: #eb5d1e; */
   border-radius: 20px;
 }
 
 #hero .btn-get-started:hover {
+  color: #Fff;
   background: #ef7f4d;
 }
 
@@ -445,7 +461,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 # Sections General
 --------------------------------------------------------------*/
 section {
+  text-align: right;
   padding: 60px 0;
+  
 }
 
 .section-bg {
@@ -455,15 +473,19 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+  font-family: "Almarai", sans-serif;
+  font-weight: 300;
 }
 
 .section-title h2 {
   font-size: 24px;
-  font-weight: 700;
   padding-bottom: 0;
   line-height: 1px;
   margin-bottom: 15px;
   color: #c2b7b1;
+  font-family: "Almarai", sans-serif;
+  font-weight: 300;
+
 }
 
 .section-title p {
@@ -557,6 +579,10 @@ section {
 .about p {
   font-size: 15px;
   color: #5a6570;
+  font-family: "Almarai", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
 }
 
 @media (max-width: 991px) {
@@ -603,9 +629,15 @@ section {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
+  font-family: "Almarai", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .services .title a {
+  font-family: "Almarai", sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: #111;
 }
 
@@ -613,6 +645,9 @@ section {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
+  font-family: "Almarai", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /*--------------------------------------------------------------
@@ -900,7 +935,7 @@ section {
 .team .member {
   text-align: center;
   margin-bottom: 20px;
-  background: #343a40;
+  /* background: #343a40; */
   position: relative;
   overflow: hidden;
 }
@@ -1284,11 +1319,13 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Almarai", sans-serif;
+
   color: #5c5c5c;
 }
 
 #footer .footer-top h4 {
+  text-align: right;
   font-size: 16px;
   font-weight: bold;
   color: #212529;
@@ -1296,8 +1333,15 @@ section {
   padding-bottom: 12px;
 }
 
+#footer .footer-top p {
+  text-align: right;
+  font-family: "Almarai", sans-serif;
+}
+
+
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
+  font-family: "Almarai", sans-serif;
 }
 
 #footer .footer-top .footer-links ul {
